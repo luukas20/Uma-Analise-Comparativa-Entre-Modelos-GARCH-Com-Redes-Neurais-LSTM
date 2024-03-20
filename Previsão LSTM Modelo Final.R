@@ -166,6 +166,8 @@ ggplot(data) +
 
 dev.copy2pdf(file="C:\\Users\\lucas\\OneDrive - 5qgclf\\Documentos\\UFS\\10 Periodo\\TCC\\TCC Latex\\figuras\\RNN-BOVA11.pdf", width = 7, height = 5)
 
+ajt <- ajuste1$metrics %>% as.data.frame()
+
 ggplot(ajt) +
   geom_line(aes(x = 1:100, y = loss, color = "Treinamento"), size = 1) +
   geom_point(aes(x = 1:100, y = loss, color = "Treinamento"), size = 2) +
