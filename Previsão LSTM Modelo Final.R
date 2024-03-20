@@ -1,7 +1,7 @@
 ####################################
 ### Titulo: Modelo Final
-### Dados da Amostra: BOVA11.SA 2018-01-01 a 2023-12-31
-### Data: 18/02/2024
+### Dados da Amostra: BOVA11.SA 2018-01-01 a 2024-02-29
+### Data: 12/03/2024
 #####################################
 
 rm(list = ls())
@@ -128,11 +128,11 @@ sqrt(mean((ytest - ypred)^2))
 mean(abs(ytest-ypred)/ytest)
 sqrt(mean((ytest - ypred)^2)) / sqrt(mean((ytest - 123.95)^2))
 
-# Salvar todas as variáveis existentes no ambiente R em um arquivo RData
+# Salvar todas as variáveis do modelo treinado
 # save_model_tf(modelo1, filepath = "C:\\Users\\lucas\\OneDrive - 5qgclf\\Documentos\\UFS\\10 Periodo\\TCC\\Script R\\Modelo2" )
 
-# Carregar o arquivo RData
-# modelo_salvo <- load_model_tf("Modelo2" , custom_objects = NULL, compile = TRUE)
+# Carregar o arquivo do modelo treinado
+# modelo_salvo <- load_model_tf("C:\\Users\\lucas\\OneDrive - 5qgclf\\Documentos\\UFS\\10 Periodo\\TCC\\Script R\\Modelo2" , custom_objects = NULL, compile = TRUE)
 
 # Fim ---------------------------------------------------------------------
 
