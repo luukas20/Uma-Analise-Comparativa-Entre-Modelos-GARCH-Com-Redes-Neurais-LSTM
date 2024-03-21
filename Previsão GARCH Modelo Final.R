@@ -106,5 +106,4 @@ ggplot(data) +
 
 ( 1- mean(abs(data$Close-data$Fitted)/data$Close, na.rm = T) ) * 100
 
-plot(as.numeric(df.xts[1492:1509]), type = 'l')
-lines(ypred, col = 2)
+
