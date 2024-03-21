@@ -1,7 +1,7 @@
 ####################################
 ### Titulo: Pesquisa em Grade 
-### Dados da Amostra: BOVA11.SA 2018-01-01 a Sys.Date()
-### Data: 05/02/2024
+### Dados da Amostra: BOVA11.SA 2018-01-01 a 2024-02-29
+### Data: 05/03/2024
 #####################################
 
 rm(list = ls())
